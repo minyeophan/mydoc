@@ -1,6 +1,3 @@
-import requests
-
-url = "http://127.0.0.1:8000/text"
 
 # 실제 테스트용 계약서 텍스트
 contract_text = """
@@ -29,10 +26,3 @@ contract_text = """
 2. 일방 당사자의 귀책사유로 계약을 해지하는 경우, 위약금은 계약금의 200%에 해당한다.
 
 """
-
-data = {"text": contract_text}
-
-response = requests.post(url, json=data)
-
-# JSON 결과 출력
-print(response.json())

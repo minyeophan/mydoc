@@ -1,7 +1,7 @@
 # Colab용 LangChain + OpenAI 테스트 코드
 from openai import OpenAI
 from dotenv import load_dotenv
-from test_api import contract_text
+from test_api import contract_text3
 import os
 import json
 import re
@@ -27,7 +27,7 @@ JSON 필드:
 - suggested_fix: 수정 제안
 
 계약서 내용:
-{contract_text}
+{contract_text3}
 """
 
 try:
